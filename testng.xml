@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="TestNG" parallel="methods">
-    <test name="CRM" thread-count="16" parallel="none">
+    <test name="CRM" thread-count="16">
         <packages>
             <package name="runners"/>
         </packages>
