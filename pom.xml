@@ -197,9 +197,9 @@
                     <!--Многопоточный запуск=============================================-->
                     <parallel>methods</parallel>
                     <threadCount>16</threadCount>
-                    <!--<includes>-->
-                        <!--<include>**/runners/*.java</include>-->
-                    <!--</includes>-->
+                    <includes>
+                        <include>**/runners/*.java</include>
+                    </includes>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
